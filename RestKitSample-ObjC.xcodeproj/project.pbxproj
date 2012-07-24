@@ -13,19 +13,25 @@
 		746DDDC815BE8ECF00BA48AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 746DDDC615BE8ECF00BA48AA /* InfoPlist.strings */; };
 		746DDDCA15BE8ECF00BA48AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DDDC915BE8ECF00BA48AA /* main.m */; };
 		746DDDCE15BE8ECF00BA48AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DDDCD15BE8ECF00BA48AA /* AppDelegate.m */; };
+		746DDDE415BE90AE00BA48AA /* GithubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 746DDDE315BE90AE00BA48AA /* GithubUser.m */; };
+		9C1E11AF0207470B91195C59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A530997228248FFBCF66249 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		746DDDB915BE8ECF00BA48AA /* RestKitSample-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestKitSample-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		746DDDBD15BE8ECF00BA48AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		746DDDBF15BE8ECF00BA48AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		746DDDC115BE8ECF00BA48AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		746DDDC515BE8ECF00BA48AA /* RestKitSample-ObjC-Info.plist */ = {isa = PBXFileReference; path = "RestKitSample-ObjC-Info.plist"; sourceTree = "<group>"; };
+		746DDDBD15BE8ECF00BA48AA /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		746DDDBF15BE8ECF00BA48AA /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		746DDDC115BE8ECF00BA48AA /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		746DDDC515BE8ECF00BA48AA /* RestKitSample-ObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RestKitSample-ObjC-Info.plist"; sourceTree = "<group>"; };
 		746DDDC715BE8ECF00BA48AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		746DDDC915BE8ECF00BA48AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		746DDDCB15BE8ECF00BA48AA /* RestKitSample-ObjC-Prefix.pch */ = {isa = PBXFileReference; path = "RestKitSample-ObjC-Prefix.pch"; sourceTree = "<group>"; };
-		746DDDCC15BE8ECF00BA48AA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		746DDDCB15BE8ECF00BA48AA /* RestKitSample-ObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RestKitSample-ObjC-Prefix.pch"; sourceTree = "<group>"; };
+		746DDDCC15BE8ECF00BA48AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		746DDDCD15BE8ECF00BA48AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746DDDE215BE90AE00BA48AA /* GithubUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GithubUser.h; sourceTree = "<group>"; };
+		746DDDE315BE90AE00BA48AA /* GithubUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubUser.m; sourceTree = "<group>"; };
+		837B8B43993743FE93F6DDE5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		8A530997228248FFBCF66249 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 				746DDDBE15BE8ECF00BA48AA /* UIKit.framework in Frameworks */,
 				746DDDC015BE8ECF00BA48AA /* Foundation.framework in Frameworks */,
 				746DDDC215BE8ECF00BA48AA /* CoreGraphics.framework in Frameworks */,
+				9C1E11AF0207470B91195C59 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,7 @@
 				746DDDC315BE8ECF00BA48AA /* RestKitSample-ObjC */,
 				746DDDBC15BE8ECF00BA48AA /* Frameworks */,
 				746DDDBA15BE8ECF00BA48AA /* Products */,
+				837B8B43993743FE93F6DDE5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +73,7 @@
 				746DDDBD15BE8ECF00BA48AA /* UIKit.framework */,
 				746DDDBF15BE8ECF00BA48AA /* Foundation.framework */,
 				746DDDC115BE8ECF00BA48AA /* CoreGraphics.framework */,
+				8A530997228248FFBCF66249 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -74,6 +83,8 @@
 			children = (
 				746DDDCC15BE8ECF00BA48AA /* AppDelegate.h */,
 				746DDDCD15BE8ECF00BA48AA /* AppDelegate.m */,
+				746DDDE215BE90AE00BA48AA /* GithubUser.h */,
+				746DDDE315BE90AE00BA48AA /* GithubUser.m */,
 				746DDDC415BE8ECF00BA48AA /* Supporting Files */,
 			);
 			path = "RestKitSample-ObjC";
@@ -100,6 +111,7 @@
 				746DDDB515BE8ECF00BA48AA /* Sources */,
 				746DDDB615BE8ECF00BA48AA /* Frameworks */,
 				746DDDB715BE8ECF00BA48AA /* Resources */,
+				181065084BBD471F8E026AC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +158,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		181065084BBD471F8E026AC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		746DDDB515BE8ECF00BA48AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +182,7 @@
 			files = (
 				746DDDCA15BE8ECF00BA48AA /* main.m in Sources */,
 				746DDDCE15BE8ECF00BA48AA /* AppDelegate.m in Sources */,
+				746DDDE415BE90AE00BA48AA /* GithubUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +247,7 @@
 		};
 		746DDDD215BE8ECF00BA48AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B8B43993743FE93F6DDE5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitSample-ObjC/RestKitSample-ObjC-Prefix.pch";
@@ -228,6 +259,7 @@
 		};
 		746DDDD315BE8ECF00BA48AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837B8B43993743FE93F6DDE5 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RestKitSample-ObjC/RestKitSample-ObjC-Prefix.pch";
@@ -256,6 +288,7 @@
 				746DDDD315BE8ECF00BA48AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
